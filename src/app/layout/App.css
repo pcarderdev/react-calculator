@@ -1,0 +1,39 @@
+.calc-container {
+  width: 340px;
+  height: 540px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.display {
+  height: 125px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  font-size: 48px;
+}
+
+.button-container {
+  width: 100%;
+  height: 385px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.zero {
+  grid-column: 1 / 3;
+}
+
+.top-row {
+  color: yellow;
+}
